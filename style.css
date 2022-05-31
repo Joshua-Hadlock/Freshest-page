@@ -1,0 +1,187 @@
+/*make the base page look nice*/
+html, body, div {
+    margin: 0;
+    padding: 0;
+  }
+
+/*Navigation*/
+#navigation {
+    position: fixed;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    z-index: 2;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: auto;
+    padding-bottom: 0px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 0;
+}
+
+.nolink {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+}
+
+.links {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/*chopped salad picture section*/
+.fresh_picture {
+    background-image: url(HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-color: rgb(128, 128, 128);
+    width: 100%;
+    height: 1697px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    font-family: Abel, 'Courier New', Courier, monospace;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fresh_picture h1{
+    border-bottom: 2px solid white;
+    display: flex;
+    align-self: center;
+    font-size: 150px;
+    justify-content: space-around;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 0;
+}
+
+/*bread picture section*/
+
+#bread {
+    display: flex;
+    flex-grow: 1;
+}
+.breadpicture {
+    background-image: url(HTMLProjectAssets/human-holding-a-bread-745988.jpg);
+    background-color: rgb(128, 128, 128);
+    background-size: contain;
+    height: 679px;
+    width: 40%;
+    background-repeat: no-repeat;
+    min-width: 40%;
+    min-height: auto;
+}
+
+.breadtext {
+    background-color: black;
+    color: white;
+    display: flex;
+    
+    justify-content: flex-end;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    padding: 20px;
+    height: auto;
+    scale: 100%;
+    font-family: Abel, 'Courier New', Courier, monospace;
+}
+
+.breadtext h1 {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-around;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+/*pineapple picture section*/
+#pineapple {
+    display: flex;
+}
+.pineapplepicture {
+    background-image: url(HTMLProjectAssets/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg);
+    background-color: rgb(128, 128, 128);
+    background-size: contain;
+    height: 667px;
+    width: 40%;
+    background-repeat: no-repeat;
+}
+
+.pineappletext {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    padding: 20px;
+    font-family: Abel, 'Courier New', Courier, monospace;
+}
+
+.pineappletext h1 {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-around;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+/*Pasta picture section*/
+#pasta {
+    display: flex;
+}
+.pastapicture {
+    background-image: url(HTMLProjectAssets/cooked-pasta-on-brown-wooden-bowl-803963.jpg);
+    background-color: rgb(128, 128, 128);
+    background-size: contain;
+    height: 801px;
+    width: 40%;
+    background-repeat: no-repeat;
+}
+
+.pastatext {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-size: contain;
+    font-size: 30px;
+    padding: 20px;
+    font-family: Abel, 'Courier New', Courier, monospace;
+}
+
+.pastatext h1 {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-around;
+    font-family:'Times New Roman', Times, serif;
+}
